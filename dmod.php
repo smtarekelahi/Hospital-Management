@@ -28,7 +28,7 @@ echo "<tr bgcolor=red><td ><font size=4 color=white>Edit Doctor
 Details</font></td></tr>";
 echo "<form name=fdmod method=post action=dupdate.php>";
 echo "<tr><td><table width=750 cellspacing=0 cellpadding=5>";
-echo "<tr><td>Doctor Name</td><td><input type=text name=name
+echo "<tr><td>Doctor Name</td><td><input type=string name=name
 size=30 maxlength=30 value='".$row[1]."'></td></tr>";
 echo "<tr><td>Specilization</td><td><input type=text name=spec
 size=30 maxlength=30 value='".$row[2]."'></td></tr>";
