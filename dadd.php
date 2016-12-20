@@ -1,7 +1,19 @@
+<?php
+   session_start();
+if(isset($_SESSION['user'])!="")
+{
+ header("Location: dadd.php");
+}
+include_once 'dbconnect.php';
+?>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
 <html>
 <head>
 <meta name="spm" content="Hosita Management System">
-<title>Add New Doctor</title>
+<title>Add New Doctor Profile</title>
 </head>
 <body>
 <table align=center width=750 cellspacing=0 cellpadding=5>
